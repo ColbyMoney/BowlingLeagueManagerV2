@@ -1,0 +1,6 @@
+C:\Users\colby\source\repos\BowlingLeagueManagerDB\bin\Debug\BowlingLeagueManagerDB.dacpac
+C:\Users\colby\source\repos\BowlingLeagueManagerDB\bin\Debug\BowlingLeagueManagerDB.dll
+C:\Users\colby\source\repos\BowlingLeagueManagerDB\bin\Debug\BowlingLeagueManagerDB.pdb
+C:\Users\colby\source\repos\BowlingLeagueManagerDB\obj\Debug\BowlingLeagueManagerDB.sqlproj.AssemblyReference.cache
+C:\Users\colby\source\repos\BowlingLeagueManagerDB\obj\Debug\BowlingLeagueManagerDB.dll
+C:\Users\colby\source\repos\BowlingLeagueManagerDB\obj\Debug\BowlingLeagueManagerDB.pdb

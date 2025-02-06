@@ -1,0 +1,695 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\dtos\\dtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\dtos\\dtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\dtos\\leaguedetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\dtos\\leaguedetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\dtos\\dtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\dtos\\dtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\dtos\\dtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\dtos\\dtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\controllers\\bowlercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\controllers\\bowlercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\services\\ibowlerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\services\\ibowlerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\services\\bowlerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\services\\bowlerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\repositories\\bowlerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\repositories\\bowlerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\repositories\\ibowlerleaguecomborepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\repositories\\ibowlerleaguecomborepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\repositories\\bowlerleaguecomborepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\repositories\\bowlerleaguecomborepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\models\\bowler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\models\\bowler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\migrations\\20241012161809_bowler-image-support.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\migrations\\20241012161809_bowler-image-support.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\migrations\\20241004224950_create-team-table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\migrations\\20241004224950_create-team-table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\models\\bowlerleaguecombo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\models\\bowlerleaguecombo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\controllers\\bowlerleaguecombocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\controllers\\bowlerleaguecombocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\services\\iseriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\services\\iseriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\controllers\\seriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\controllers\\seriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\services\\teamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\services\\teamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\services\\iteamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\services\\iteamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\repositories\\ileaguerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\repositories\\ileaguerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\repositories\\iseriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\repositories\\iseriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\repositories\\iteamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\repositories\\iteamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\services\\ileagueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\services\\ileagueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\controllers\\leaguecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\controllers\\leaguecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\services\\bowlerleaguecomboservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\services\\bowlerleaguecomboservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\repositories\\teamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\repositories\\teamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\repositories\\leaguerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\repositories\\leaguerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\services\\leagueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\services\\leagueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\repositories\\seriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\repositories\\seriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\services\\seriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\services\\seriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|c:\\users\\colby\\source\\repos\\bowlingleaguemanagerv2backend\\bowlingleaguemanagerv2backend\\migrations\\20241004205507_addleaguetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D6370-9E8E-4655-9B05-C3CC7E886491}|BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend.csproj|solutionrelative:bowlingleaguemanagerv2backend\\migrations\\20241004205507_addleaguetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Repositories\\AccountRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BowlingLeagueManagerV2Backend\\Repositories\\AccountRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Repositories\\IAccountRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BowlingLeagueManagerV2Backend\\Repositories\\IAccountRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Services\\IAccountService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BowlingLeagueManagerV2Backend\\Services\\IAccountService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Services\\AccountService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BowlingLeagueManagerV2Backend\\Services\\AccountService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Migrations\\20241019221817_create-account-table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BowlingLeagueManagerV2Backend\\Migrations\\20241019221817_create-account-table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 313,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T23:11:22.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwBkAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T19:10:40.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T17:28:46.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BowlerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Repositories\\BowlerRepository.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Repositories\\BowlerRepository.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Repositories\\BowlerRepository.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Repositories\\BowlerRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T17:27:50.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Repositories\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Repositories\\AccountRepository.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Repositories\\AccountRepository.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Repositories\\AccountRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwCEAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T17:27:46.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IBowlerLeagueComboRepository.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Repositories\\IBowlerLeagueComboRepository.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Repositories\\IBowlerLeagueComboRepository.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Repositories\\IBowlerLeagueComboRepository.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Repositories\\IBowlerLeagueComboRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T17:22:45.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IAccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Repositories\\IAccountRepository.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Repositories\\IAccountRepository.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Repositories\\IAccountRepository.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Repositories\\IAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T17:24:28.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Bowler.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Models\\Bowler.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Models\\Bowler.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Models\\Bowler.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Models\\Bowler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T16:53:55.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Models\\Account.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Models\\Account.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Models\\Account.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T16:53:53.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Program.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Program.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Program.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwCAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T04:47:49.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LeagueDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\DTOs\\LeagueDetailsDto.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\DTOs\\LeagueDetailsDto.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\DTOs\\LeagueDetailsDto.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\DTOs\\LeagueDetailsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T23:20:26.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DtoService.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\DTOs\\DtoService.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\DTOs\\DtoService.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\DTOs\\DtoService.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\DTOs\\DtoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T00:21:05.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DtoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\DTOs\\DtoRepository.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\DTOs\\DtoRepository.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\DTOs\\DtoRepository.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\DTOs\\DtoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T00:21:18.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DtoController.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\DTOs\\DtoController.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\DTOs\\DtoController.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\DTOs\\DtoController.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\DTOs\\DtoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T00:21:28.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Services\\IAccountService.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Services\\IAccountService.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Services\\IAccountService.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Services\\IAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T17:35:48.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IBowlerService.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Services\\IBowlerService.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Services\\IBowlerService.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Services\\IBowlerService.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Services\\IBowlerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T17:36:59.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Services\\AccountService.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Services\\AccountService.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Services\\AccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T17:41:32.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20241019221817_create-account-table.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Migrations\\20241019221817_create-account-table.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Migrations\\20241019221817_create-account-table.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Migrations\\20241019221817_create-account-table.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Migrations\\20241019221817_create-account-table.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBwAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T22:18:18.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BowlerService.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Services\\BowlerService.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Services\\BowlerService.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Services\\BowlerService.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Services\\BowlerService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T17:41:35.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BowlerController.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Controllers\\BowlerController.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Controllers\\BowlerController.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Controllers\\BowlerController.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Controllers\\BowlerController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAuwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T00:06:36.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20241012161809_bowler-image-support.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Migrations\\20241012161809_bowler-image-support.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Migrations\\20241012161809_bowler-image-support.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Migrations\\20241012161809_bowler-image-support.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Migrations\\20241012161809_bowler-image-support.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T16:18:09.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BowlerLeagueComboController.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Controllers\\BowlerLeagueComboController.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Controllers\\BowlerLeagueComboController.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Controllers\\BowlerLeagueComboController.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Controllers\\BowlerLeagueComboController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwEUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T00:06:32.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BowlerLeagueCombo.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Models\\BowlerLeagueCombo.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Models\\BowlerLeagueCombo.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Models\\BowlerLeagueCombo.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Models\\BowlerLeagueCombo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T17:36:09.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20241004224950_create-team-table.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Migrations\\20241004224950_create-team-table.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Migrations\\20241004224950_create-team-table.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Migrations\\20241004224950_create-team-table.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Migrations\\20241004224950_create-team-table.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T22:49:50.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SeriesController.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Controllers\\SeriesController.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Controllers\\SeriesController.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Controllers\\SeriesController.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Controllers\\SeriesController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAqwCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:49:39.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BowlerLeagueComboRepository.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Repositories\\BowlerLeagueComboRepository.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Repositories\\BowlerLeagueComboRepository.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Repositories\\BowlerLeagueComboRepository.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Repositories\\BowlerLeagueComboRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwB8AAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T18:20:12.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ITeamRepository.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Repositories\\ITeamRepository.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Repositories\\ITeamRepository.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Repositories\\ITeamRepository.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Repositories\\ITeamRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T22:15:36.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ILeagueService.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Services\\ILeagueService.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Services\\ILeagueService.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Services\\ILeagueService.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Services\\ILeagueService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T20:28:25.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ISeriesService.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Services\\ISeriesService.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Services\\ISeriesService.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Services\\ISeriesService.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Services\\ISeriesService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T18:38:05.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ITeamService.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Services\\ITeamService.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Services\\ITeamService.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Services\\ITeamService.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Services\\ITeamService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T22:29:35.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TeamController.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Controllers\\TeamController.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Controllers\\TeamController.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Controllers\\TeamController.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Controllers\\TeamController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T22:43:51.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ISeriesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Repositories\\ISeriesRepository.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Repositories\\ISeriesRepository.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Repositories\\ISeriesRepository.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Repositories\\ISeriesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T18:18:48.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ILeagueRepository.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Repositories\\ILeagueRepository.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Repositories\\ILeagueRepository.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Repositories\\ILeagueRepository.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Repositories\\ILeagueRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T20:11:25.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TeamService.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Services\\TeamService.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Services\\TeamService.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Services\\TeamService.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Services\\TeamService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T22:30:27.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LeagueController.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Controllers\\LeagueController.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Controllers\\LeagueController.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Controllers\\LeagueController.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Controllers\\LeagueController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAhwCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T20:40:11.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TeamRepository.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Repositories\\TeamRepository.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Repositories\\TeamRepository.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Repositories\\TeamRepository.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Repositories\\TeamRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T22:21:23.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LeagueRepository.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Repositories\\LeagueRepository.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Repositories\\LeagueRepository.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Repositories\\LeagueRepository.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Repositories\\LeagueRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T20:16:22.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BowlerLeagueComboService.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Services\\BowlerLeagueComboService.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Services\\BowlerLeagueComboService.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Services\\BowlerLeagueComboService.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Services\\BowlerLeagueComboService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T23:30:44.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LeagueService.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Services\\LeagueService.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Services\\LeagueService.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Services\\LeagueService.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Services\\LeagueService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAC8AAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T20:31:48.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20241004205507_AddLeagueTable.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Migrations\\20241004205507_AddLeagueTable.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Migrations\\20241004205507_AddLeagueTable.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Migrations\\20241004205507_AddLeagueTable.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Migrations\\20241004205507_AddLeagueTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T20:55:07.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SeriesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Repositories\\SeriesRepository.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Repositories\\SeriesRepository.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Repositories\\SeriesRepository.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Repositories\\SeriesRepository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAqwDoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T04:58:51.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SeriesService.cs",
+              "DocumentMoniker": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Services\\SeriesService.cs",
+              "RelativeDocumentMoniker": "BowlingLeagueManagerV2Backend\\Services\\SeriesService.cs",
+              "ToolTip": "C:\\Users\\colby\\source\\repos\\BowlingLeagueManagerV2Backend\\BowlingLeagueManagerV2Backend\\Services\\SeriesService.cs",
+              "RelativeToolTip": "BowlingLeagueManagerV2Backend\\Services\\SeriesService.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEQAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T05:05:59.056Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

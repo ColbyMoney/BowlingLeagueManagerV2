@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BowlingLeagueManagerV2Backend.props" />
+</Project>

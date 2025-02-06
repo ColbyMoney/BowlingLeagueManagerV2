@@ -1,0 +1,658 @@
+[
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.AccountController",
+    "Method": "CreateAccount",
+    "RelativePath": "bowlingLeagueManager/account/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "account",
+        "Type": "BowlingLeagueManagerV2Backend.Models.Account",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.AccountController",
+    "Method": "DeleteAccount",
+    "RelativePath": "bowlingLeagueManager/account/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.AccountController",
+    "Method": "GetAccountById",
+    "RelativePath": "bowlingLeagueManager/account/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BowlingLeagueManagerV2Backend.Models.Account",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.AccountController",
+    "Method": "GetAllAccounts",
+    "RelativePath": "bowlingLeagueManager/account/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "bowlingLeagueManager/account/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDetails",
+        "Type": "BowlingLeagueManagerV2Backend.DTOs.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.AccountController",
+    "Method": "UpdateAccount",
+    "RelativePath": "bowlingLeagueManager/account/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "updatedAccount",
+        "Type": "BowlingLeagueManagerV2Backend.Models.Account",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BowlingLeagueManagerV2Backend.Models.Account",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.BowlerController",
+    "Method": "CreateBowler",
+    "RelativePath": "bowlingLeagueManager/bowler/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bowler",
+        "Type": "BowlingLeagueManagerV2Backend.Models.Bowler",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.BowlerController",
+    "Method": "DeleteBowler",
+    "RelativePath": "bowlingLeagueManager/bowler/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bowlerId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.BowlerController",
+    "Method": "GetBowlerById",
+    "RelativePath": "bowlingLeagueManager/bowler/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bowlerId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BowlingLeagueManagerV2Backend.Models.Bowler",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.BowlerController",
+    "Method": "GetAllBowlers",
+    "RelativePath": "bowlingLeagueManager/bowler/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.BowlerController",
+    "Method": "UpdateBowler",
+    "RelativePath": "bowlingLeagueManager/bowler/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bowlerId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "updatedBowler",
+        "Type": "BowlingLeagueManagerV2Backend.Models.Bowler",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BowlingLeagueManagerV2Backend.Models.Bowler",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.BowlerLeagueComboController",
+    "Method": "CreateBowlerLeagueCombo",
+    "RelativePath": "bowlingLeagueManager/bowlerLeagueCombo/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bowlerLeagueCombo",
+        "Type": "BowlingLeagueManagerV2Backend.Models.BowlerLeagueCombo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BowlingLeagueManagerV2Backend.Models.Series",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.BowlerLeagueComboController",
+    "Method": "DeleteBowlerLeagueCombo",
+    "RelativePath": "bowlingLeagueManager/bowlerLeagueCombo/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bowlerLeagueComboId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.BowlerLeagueComboController",
+    "Method": "GetBowlerLeagueComboById",
+    "RelativePath": "bowlingLeagueManager/bowlerLeagueCombo/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bowlerLeagueComboId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BowlingLeagueManagerV2Backend.Models.Series",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.BowlerLeagueComboController",
+    "Method": "GetAllBowlerLeagueCombos",
+    "RelativePath": "bowlingLeagueManager/bowlerLeagueCombo/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.BowlerLeagueComboController",
+    "Method": "UpdateBowlerLeagueCombo",
+    "RelativePath": "bowlingLeagueManager/bowlerLeagueCombo/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bowlerLeagueComboId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "updatedBowlerLeagueCombo",
+        "Type": "BowlingLeagueManagerV2Backend.Models.BowlerLeagueCombo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BowlingLeagueManagerV2Backend.Models.BowlerLeagueCombo",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.DTOs.DtoController",
+    "Method": "GetLeagueDetailsByIdAsync",
+    "RelativePath": "bowlingLeagueManager/dto/leagueDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leagueId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.LeagueController",
+    "Method": "CreateLeague",
+    "RelativePath": "bowlingleaguemanager/league/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "league",
+        "Type": "BowlingLeagueManagerV2Backend.Models.League",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.LeagueController",
+    "Method": "DeleteLeague",
+    "RelativePath": "bowlingleaguemanager/league/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leagueId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.LeagueController",
+    "Method": "GetLeagueById",
+    "RelativePath": "bowlingleaguemanager/league/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leagueId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BowlingLeagueManagerV2Backend.Models.League",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.LeagueController",
+    "Method": "GetAllLeagues",
+    "RelativePath": "bowlingleaguemanager/league/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.LeagueController",
+    "Method": "UpdateLeague",
+    "RelativePath": "bowlingleaguemanager/league/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leagueId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "updatedLeague",
+        "Type": "BowlingLeagueManagerV2Backend.Models.League",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BowlingLeagueManagerV2Backend.Models.League",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.SeriesController",
+    "Method": "CreateSeries",
+    "RelativePath": "bowlingleaguemanager/series/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "series",
+        "Type": "BowlingLeagueManagerV2Backend.Models.Series",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BowlingLeagueManagerV2Backend.Models.Series",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.SeriesController",
+    "Method": "DeleteSeries",
+    "RelativePath": "bowlingleaguemanager/series/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "seriesId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.SeriesController",
+    "Method": "GetSeriesById",
+    "RelativePath": "bowlingleaguemanager/series/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "seriesId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BowlingLeagueManagerV2Backend.Models.Series",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.SeriesController",
+    "Method": "GetAllSeries",
+    "RelativePath": "bowlingleaguemanager/series/getall",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BowlingLeagueManagerV2Backend.Models.Series, BowlingLeagueManagerV2Backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.SeriesController",
+    "Method": "UpdateSeries",
+    "RelativePath": "bowlingleaguemanager/series/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "seriesId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "updatedSeries",
+        "Type": "BowlingLeagueManagerV2Backend.Models.Series",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BowlingLeagueManagerV2Backend.Models.Series",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.TeamController",
+    "Method": "CreateTeam",
+    "RelativePath": "bowlingLeagueManager/team/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "team",
+        "Type": "BowlingLeagueManagerV2Backend.Models.Team",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.TeamController",
+    "Method": "DeleteTeam",
+    "RelativePath": "bowlingLeagueManager/team/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teamId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.TeamController",
+    "Method": "GetTeamById",
+    "RelativePath": "bowlingLeagueManager/team/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teamId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BowlingLeagueManagerV2Backend.Models.Team",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.TeamController",
+    "Method": "GetAllTeams",
+    "RelativePath": "bowlingLeagueManager/team/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BowlingLeagueManagerV2Backend.Controllers.TeamController",
+    "Method": "UpdateTeam",
+    "RelativePath": "bowlingLeagueManager/team/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teamId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "updatedTeam",
+        "Type": "BowlingLeagueManagerV2Backend.Models.Team",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BowlingLeagueManagerV2Backend.Models.Team",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

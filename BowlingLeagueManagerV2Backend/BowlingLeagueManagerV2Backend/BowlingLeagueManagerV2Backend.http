@@ -1,0 +1,6 @@
+@BowlingLeagueManagerV2Backend_HostAddress = http://localhost:5167
+
+GET {{BowlingLeagueManagerV2Backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
