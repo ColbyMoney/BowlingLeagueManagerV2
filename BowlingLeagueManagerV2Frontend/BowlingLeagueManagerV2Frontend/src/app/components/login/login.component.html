@@ -1,0 +1,16 @@
+<h3>Please log in to continue.</h3>
+<form [formGroup]="loginForm" (ngSubmit)="login()">
+    <mat-form-field>
+        <mat-label>Username</mat-label>
+        <input matInput formControlName="username">
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Password</mat-label>
+        <input type='password' matInput formControlName="password">
+    </mat-form-field>
+
+    <button mat-flat-button type="submit">Login</button>
+</form>
+<h3>Don't have an account? Sign up!</h3>
+<button mat-flat-button (click)="navigateToSignUp()">Sign Up</button>

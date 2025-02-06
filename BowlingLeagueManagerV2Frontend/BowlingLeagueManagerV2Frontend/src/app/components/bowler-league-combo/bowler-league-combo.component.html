@@ -1,0 +1,25 @@
+<h3>Fill out this form to create a Bowler League Combo.</h3>
+<form [formGroup]="bowlerLeagueComboForm" (ngSubmit)="createBowlerLeagueCombo()">
+    <mat-form-field>
+        <mat-label>Select Bowler</mat-label>
+        <mat-select formControlName="bowlerId">
+            <mat-option *ngFor="let bowler of bowlers" [value]="bowler.bowlerId">{{bowler.firstName}} {{bowler.lastName}}</mat-option>
+        </mat-select>
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Select League</mat-label>
+        <mat-select formControlName="leagueId">
+            <mat-option *ngFor="let league of leagues" [value]="league.leagueId">{{league.leagueName}}</mat-option>
+        </mat-select>
+    </mat-form-field>
+
+    <mat-form-field style="width: 400px">
+        <mat-label>Select Team</mat-label>
+        <mat-select formControlName="teamId">
+            <mat-option *ngFor="let team of teams" [value]="team.teamId">{{team.teamName}}</mat-option>
+        </mat-select>
+    </mat-form-field>
+  
+    <button mat-flat-button type="submit">Create Bowler League Combo</button>
+</form>

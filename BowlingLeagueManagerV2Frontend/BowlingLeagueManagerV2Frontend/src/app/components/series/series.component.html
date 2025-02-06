@@ -1,0 +1,43 @@
+<h3>Fill out this form to create a series.</h3>
+<form [formGroup]="seriesForm" (ngSubmit)="createSeries()">
+    <mat-form-field>
+        <mat-label>Select Bowler</mat-label>
+        <mat-select formControlName="bowlerId">
+            <mat-option *ngFor="let bowler of bowlers" [value]="bowler.bowlerId">{{bowler.firstName}} {{bowler.lastName}}</mat-option>
+        </mat-select>
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Select League</mat-label>
+        <mat-select formControlName="leagueId" (selectionChange)="onLeagueChange()">
+            <mat-option *ngFor="let league of leagues" [value]="league.leagueId">{{league.leagueName}}</mat-option>
+        </mat-select>
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Select Week</mat-label>
+        <mat-select formControlName="weekId" [disabled]="!selectedLeague">
+            <mat-option *ngFor="let week of [].constructor(selectedLeague?.numberOfWeeks); let i = index" [value]="i + 1">
+                {{ i + 1 }}
+            </mat-option>
+        </mat-select>
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Game 1</mat-label>
+        <input matInput formControlName="game1">
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Game 2</mat-label>
+        <input matInput formControlName="game2">
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Game 3</mat-label>
+        <input matInput formControlName="game3">
+    </mat-form-field>
+
+    <h4>Series: {{calculateSeries()}}</h4>
+    <button mat-flat-button type="submit">Create Series</button>
+</form>

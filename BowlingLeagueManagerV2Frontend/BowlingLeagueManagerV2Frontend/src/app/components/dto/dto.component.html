@@ -1,0 +1,37 @@
+<div class="container" id="main-container">
+    <div class="row">
+        <form [formGroup]="leagueIdForm" (ngSubmit)="getLeagueDetailsByLeagueId()">
+            <h3>Enter a league ID to retrieve the details of.</h3>
+            <mat-form-field>
+                <mat-label for="leagueId">League ID: </mat-label>
+                <input matInput id="leagueId" type="text" formControlName="leagueId">
+            </mat-form-field>
+            <button mat-flat-button type="submit">Get League Details</button>
+        </form>
+        
+        <div *ngFor="let league of leagueDetails">
+            <h4>League: {{ league.leagueName }}</h4>
+            <h4>Description: {{league.leagueDescription}}</h4>
+            <div *ngFor="let team of league.teams">
+                <h4>Team: {{ team.teamName }}</h4>
+                <div class="card-container">
+                    <div *ngFor="let bowler of team.bowlers">
+                        <mat-card class="bowler-card" appearance="outlined">
+                            <mat-card-header>
+                                <mat-card-title>{{bowler.bowlerName}}</mat-card-title>
+                                <mat-card-subtitle>Average: {{ bowler.average }}</mat-card-subtitle>
+                            </mat-card-header>
+                            <img mat-card-image src={{bowler.bowlerImage}} alt={{bowler.bowlerImageAltText}}>
+                            <mat-card-content>
+                                <p>Total Pins: {{bowler.totalPins}}</p>
+                                <p>Games Bowled: {{bowler.totalGamesBowled}}</p>
+                                <p>Highest Game: {{bowler.highestGame}}</p>
+                                <p>Highest Series: {{bowler.highestSeries}}</p>
+                            </mat-card-content>
+                        </mat-card>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

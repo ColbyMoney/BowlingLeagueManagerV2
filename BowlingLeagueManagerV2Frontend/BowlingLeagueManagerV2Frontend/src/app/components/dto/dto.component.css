@@ -1,0 +1,12 @@
+.bowler-card {
+    width: 400px;
+    height: 600px;
+    background-color: lightblue;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap; /* Cards will wrap to the next line if there's not enough space */
+    gap: 16px; /* Adds space between the cards */
+}

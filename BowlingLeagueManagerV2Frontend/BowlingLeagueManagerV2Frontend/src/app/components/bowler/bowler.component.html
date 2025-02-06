@@ -1,0 +1,39 @@
+<h3>Click the "Get Bowlers" button to see all the bowlers.</h3>
+<div class="container" id="main-container">
+    <div class="row">
+        <button mat-flat-button (click)="getAllBowlers()">Get Bowlers</button>
+        <div *ngFor="let bowler of bowlers" class="col-md-6 col-xl-3">
+            <h5>Bowler {{bowler?.bowlerId}}: {{bowler?.firstName}} {{bowler?.lastName}}</h5>
+        </div>
+        <div>
+            <form [formGroup]="bowlerForm" (submit)="createBowler()">
+                <h3>Fill out this form to create a bowler.</h3>
+                
+                <mat-form-field>
+                    <mat-label for="first-name">First Name</mat-label>
+                    <input matInput id="first-name" type="text" formControlName="firstName">
+                </mat-form-field>
+
+                <mat-form-field>
+                    <mat-label for="last-name">Last Name</mat-label>
+                    <input matInput id="last-name" type="text" formControlName="lastName">
+                </mat-form-field>
+                
+                <mat-form-field>
+                    <mat-label for="bowler-image">Bowler Image URL</mat-label>
+                    <input matInput id="bowler-image" type="text" formControlName="bowlerImage">
+                </mat-form-field>
+                
+                <mat-form-field>
+                    <mat-label for="bowler-image-alt-text">Bowler Image Alt Text</mat-label>
+                    <input matInput id="bowler-image-alt-text" type="text" formControlName="bowlerImageAltText">
+                </mat-form-field>
+
+                <button mat-flat-button type="submit">Create Account</button>
+            </form>
+        </div>
+        <div>
+            
+        </div>
+    </div>
+</div>
